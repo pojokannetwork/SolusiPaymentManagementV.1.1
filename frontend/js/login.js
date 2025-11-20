@@ -1,5 +1,5 @@
 // API Configuration
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'http://localhost/SolusiPaymentManagementV.1.1/backend';
 
 // Toggle between WhatsApp and Email login
 let isWhatsAppLogin = true;
@@ -103,19 +103,22 @@ document.getElementById('loginForm')?.addEventListener('submit', async (e) => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email, password, remember })
+            body: JSON.stringify({ 
+                username: email.split('@')[0], // Use email part as username
+                password: password 
+            })
         });
         
         const data = await response.json();
         
-        if (response.ok) {
+        if (data.success) {
             // Save token
             if (remember) {
-                localStorage.setItem('token', data.token);
-                localStorage.setItem('user', JSON.stringify(data.user));
+                localStorage.setItem('token', data.data.token);
+                localStorage.setItem('user', JSON.stringify(data.data.user));
             } else {
-                sessionStorage.setItem('token', data.token);
-                sessionStorage.setItem('user', JSON.stringify(data.user));
+                sessionStorage.setItem('token', data.data.token);
+                sessionStorage.setItem('user', JSON.stringify(data.data.user));
             }
             
             showNotification('Login berhasil!', 'success');
@@ -155,8 +158,8 @@ function showNotification(message, type = 'info') {
     // Style
     Object.assign(notification.style, {
         position: 'fixed',
-        top: '20px',
-        right: '20px',
+        inset-block-start: '20px',
+        inset-inline-end: '20px',
         padding: '16px 24px',
         borderRadius: '12px',
         color: 'white',
@@ -165,7 +168,7 @@ function showNotification(message, type = 'info') {
         zIndex: '9999',
         animation: 'slideIn 0.3s ease-out',
         boxShadow: '0 10px 25px rgba(0,0,0,0.2)',
-        maxWidth: '400px'
+        maxinline-size: '400px'
     });
     
     // Color based on type
