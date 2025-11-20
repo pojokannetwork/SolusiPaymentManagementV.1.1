@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solusi Payment Management - Modern Payment System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" rx="12" fill="url(#gradient)"/>
+                        <path d="M24 14L34 20V28C34 32.4183 28.6274 36 24 36C19.3726 36 14 32.4183 14 28V20L24 14Z" fill="white"/>
+                        <path d="M24 20C26.2091 20 28 21.7909 28 24C28 26.2091 26.2091 28 24 28C21.7909 28 20 26.2091 20 24C20 21.7909 21.7909 20 24 20Z" fill="#0ea5e9"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0" y1="0" x2="48" y2="48">
+                                <stop offset="0%" stop-color="#0ea5e9"/>
+                                <stop offset="100%" stop-color="#6366f1"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>Solusi Payment</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link active">Beranda</a>
+                    <a href="#about" class="nav-link">Tentang</a>
+                    <a href="#services" class="nav-link">Layanan</a>
+                    <a href="#pricing" class="nav-link">Harga</a>
+                    <a href="#contact" class="nav-link">Kontak</a>
+                </div>
+                <div class="nav-actions">
+                    <a href="login.html" class="btn btn-outline">Masuk</a>
+                    <a href="register.html" class="btn btn-primary">Daftar Gratis</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-shape"></div>
+            <div class="hero-shape"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">🚀 Solusi Payment Management v1.1</div>
+                    <h1 class="hero-title">
+                        Sistem Manajemen Pembayaran <span class="gradient-text">Modern & Terpercaya</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Kelola transaksi, pelanggan, dan keuangan bisnis Anda dalam satu platform. 
+                        Otomatis, cepat, dan aman dengan teknologi terkini.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="register.html" class="btn btn-primary btn-lg">
+                            Mulai Gratis 
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="#demo" class="btn btn-outline btn-lg">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                            Lihat Demo
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong>1000+</strong>
+                            <span>Pengguna Aktif</span>
+                        </div>
+                        <div class="stat">
+                            <strong>50K+</strong>
+                            <span>Transaksi/Bulan</span>
+                        </div>
+                        <div class="stat">
+                            <strong>99.9%</strong>
+                            <span>Uptime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="dashboard-mockup">
+                        <div class="mockup-window">
+                            <div class="window-header">
+                                <div class="window-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="window-title">Dashboard</div>
+                            </div>
+                            <div class="window-content">
+                                <img src="https://via.placeholder.com/600x400/0ea5e9/ffffff?text=Dashboard+Preview" alt="Dashboard">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Tentang Kami</div>
+                <h2 class="section-title">Semua Fitur dalam Satu Platform</h2>
+                <p class="section-subtitle">
+                    Solusi Payment dirancang untuk memenuhi kebutuhan bisnis modern dengan 
+                    fitur lengkap dan mudah digunakan
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Manajemen Pelanggan</h3>
+                    <p>Kelola data pelanggan dengan mudah, tracking history transaksi, dan analisis perilaku pembayaran</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1v6m0 6v6m-6-6h6m6 0h6M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Transaksi Otomatis</h3>
+                    <p>Proses pembayaran otomatis dengan multiple payment gateway dan rekonsiliasi real-time</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Notifikasi WhatsApp</h3>
+                    <p>Kirim invoice dan reminder otomatis ke pelanggan melalui WhatsApp tanpa biaya tambahan</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Invoice Generator</h3>
+                    <p>Generate invoice otomatis dengan template yang bisa dikustomisasi sesuai brand bisnis Anda</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Laporan & Analitik</h3>
+                    <p>Dashboard analitik real-time dengan laporan harian, mingguan, dan bulanan yang detail</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 10 12 6.16-1.26 10-6.45 10-12V7l-10-5z"/>
+                        </svg>
+                    </div>
+                    <h3>Keamanan Terjamin</h3>
+                    <p>Enkripsi data tingkat bank dengan backup otomatis dan compliance dengan standar PCI-DSS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section-gray" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Layanan</div>
+                <h2 class="section-title">Hemat Biaya & Waktu dengan Solusi Payment</h2>
+                <p class="section-subtitle">
+                    Tidak perlu aplikasi tambahan atau daftar penyedia lain. 
+                    Semua kebutuhan payment management ada di sini!
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3>Multi Payment Gateway</h3>
+                    <p>Support berbagai metode pembayaran: Bank Transfer, E-Wallet, QRIS, Virtual Account, dan Credit Card</p>
+                    <ul class="service-list">
+                        <li>✓ Auto reconciliation</li>
+                        <li>✓ Real-time notification</li>
+                        <li>✓ Settlement tracking</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>Subscription Management</h3>
+                    <p>Kelola pelanggan berlangganan dengan billing otomatis dan reminder pembayaran</p>
+                    <ul class="service-list">
+                        <li>✓ Recurring billing</li>
+                        <li>✓ Trial period management</li>
+                        <li>✓ Upgrade/downgrade plan</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3>Financial Reports</h3>
+                    <p>Laporan keuangan lengkap dengan export ke Excel, PDF, dan integrasi accounting software</p>
+                    <ul class="service-list">
+                        <li>✓ Cash flow analysis</li>
+                        <li>✓ Revenue forecasting</li>
+                        <li>✓ Tax reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Harga</div>
+                <h2 class="section-title">Pilih Paket yang Sesuai dengan Kebutuhan</h2>
+                <p class="section-subtitle">Semua paket mendapatkan support 24/7 dan update gratis</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">149.000</span>
+                            <span class="period">/bulan</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 100 Transaksi/bulan</li>
+                        <li>✓ 50 Pelanggan</li>
+                        <li>✓ WhatsApp Notification</li>
+                        <li>✓ Basic Reports</li>
+                        <li>✓ Email Support</li>
+                        <li>✗ Multi User</li>
+                        <li>✗ API Access</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-outline btn-block">Pilih Paket</a>
+                </div>
+
+                <div class="pricing-card pricing-featured">
+                    <div class="featured-badge">Paling Populer</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">299.000</span>
+                            <span class="period">/bulan</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 500 Transaksi/bulan</li>
+                        <li>✓ 200 Pelanggan</li>
+                        <li>✓ WhatsApp Notification</li>
+                        <li>✓ Advanced Reports</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ Multi User (3)</li>
+                        <li>✓ API Access</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-primary btn-block">Pilih Paket</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">599.000</span>
+                            <span class="period">/bulan</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited Transaksi</li>
+                        <li>✓ Unlimited Pelanggan</li>
+                        <li>✓ WhatsApp Notification</li>
+                        <li>✓ Custom Reports</li>
+                        <li>✓ 24/7 Support</li>
+                        <li>✓ Unlimited User</li>
+                        <li>✓ Full API Access</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-outline btn-block">Hubungi Kami</a>
+                </div>
+            </div>
+
+            <div class="trial-banner">
+                <h3>🎉 Trial 100% Gratis Selama 14 Hari!</h3>
+                <p>Tidak perlu kartu kredit. Nikmati semua fitur Professional tanpa batasan.</p>
+                <a href="register.html" class="btn btn-primary">Mulai Trial Gratis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-gray" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Hubungi Kami</div>
+                <h2 class="section-title">Ada Pertanyaan? Kami Siap Membantu</h2>
+                <p class="section-subtitle">Tim support kami siap menjawab semua pertanyaan Anda</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@solusipayment.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 08:00 - 20:00 WIB</p>
+                            <p>Sabtu - Minggu: 09:00 - 17:00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="No. WhatsApp">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="48" height="48" rx="12" fill="url(#gradient2)"/>
+                            <path d="M24 14L34 20V28C34 32.4183 28.6274 36 24 36C19.3726 36 14 32.4183 14 28V20L24 14Z" fill="white"/>
+                            <path d="M24 20C26.2091 20 28 21.7909 28 24C28 26.2091 26.2091 28 24 28C21.7909 28 20 26.2091 20 24C20 21.7909 21.7909 20 24 20Z" fill="#0ea5e9"/>
+                            <defs>
+                                <linearGradient id="gradient2" x1="0" y1="0" x2="48" y2="48">
+                                    <stop offset="0%" stop-color="#0ea5e9"/>
+                                    <stop offset="100%" stop-color="#6366f1"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>Solusi Payment</span>
+                    </div>
+                    <p>Sistem Manajemen Pembayaran Modern untuk Bisnis Indonesia</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#services">Fitur</a></li>
+                        <li><a href="#pricing">Harga</a></li>
+                        <li><a href="#">Integrasi</a></li>
+                        <li><a href="#">API Documentation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Solusi Payment Management. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/landing.js"></script>
+</body>
+</html>
